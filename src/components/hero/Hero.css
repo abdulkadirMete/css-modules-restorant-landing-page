@@ -1,0 +1,51 @@
+.container {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url("../../images/restaurant.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  max-height: 100%;
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contentItems {
+  width: 700px;
+  padding: 0 5rem;
+  padding-top: 100px;
+}
+
+.heading {
+  font-weight: 800;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+}
+
+.text {
+  font-size: 1.2rem;
+}
+
+.btn-hero {
+  margin-right: auto;
+  background-color: transparent;
+  border: 5px solid #f76d28;
+  padding: 1rem 1.8rem;
+  font-size: 1.8rem;
+  border-radius: .5rem;
+  transition: 0.3s linear;
+
+}
+
+.btn-hero:hover{
+    background-color: #f76d28;
+    color: white;
+    transform: scale(1.05);
+
+}

@@ -1,0 +1,27 @@
+.footer {
+  background: linear-gradient(to bottom, #111, #000);
+  padding: 3rem;
+}
+
+.f-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.f-column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+  row-gap: 1rem;
+}
+
+.f-column h4 {
+  margin: 0 auto;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.f-column div {
+  color: #ccc;
+}

@@ -1,0 +1,33 @@
+.navbar {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  transition: transform .5s linear;
+}
+
+.navbar.move {
+  transform: translateY(-100%);
+}
+
+.navLink {
+  font-size: 2rem;
+}
+
+.navIcon {
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(100%, 50%);
+}
+
+@media screen and (max-width:568px) {
+  .desktop{
+    display: none;
+  }
+}
